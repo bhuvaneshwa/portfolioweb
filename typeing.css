@@ -1,0 +1,25 @@
+
+  
+  .typing-text {
+    font-size: 24px;
+    color: white;
+    text-align: left;
+  }
+  
+  #cursor {
+    display: inline-block;
+    width: 8px;
+    height: 20px;
+    background-color: white;
+    animation: cursor-blink 0.8s infinite;
+  }
+  
+  @keyframes cursor-blink {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
